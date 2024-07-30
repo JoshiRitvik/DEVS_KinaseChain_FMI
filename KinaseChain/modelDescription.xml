@@ -1,0 +1,284 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<fmiModelDescription
+  fmiVersion="2.0"
+  modelName="KinaseChain"
+  guid="{35d61dbc-871a-46fc-b014-8652b7a50b9c}"
+  description=""
+  generationTool="OpenModelica Compiler OpenModelica 1.22.0~15-g4f4bc9c"
+  generationDateAndTime="2024-04-25T14:57:04Z"
+  variableNamingConvention="structured"
+  numberOfEventIndicators="0">
+  <ModelExchange
+    modelIdentifier="KinaseChain">
+    <SourceFiles>
+      <File name="KinaseChain.c" />
+      <File name="KinaseChain_functions.c" />
+      <File name="KinaseChain_records.c" />
+      <File name="KinaseChain_01exo.c" />
+      <File name="KinaseChain_02nls.c" />
+      <File name="KinaseChain_03lsy.c" />
+      <File name="KinaseChain_04set.c" />
+      <File name="KinaseChain_05evt.c" />
+      <File name="KinaseChain_06inz.c" />
+      <File name="KinaseChain_07dly.c" />
+      <File name="KinaseChain_08bnd.c" />
+      <File name="KinaseChain_09alg.c" />
+      <File name="KinaseChain_10asr.c" />
+      <File name="KinaseChain_11mix.c" />
+      <File name="KinaseChain_12jac.c" />
+      <File name="KinaseChain_13opt.c" />
+      <File name="KinaseChain_14lnz.c" />
+      <File name="KinaseChain_15syn.c" />
+      <File name="KinaseChain_16dae.c" />
+      <File name="KinaseChain_17inl.c" />
+      <File name="KinaseChain_18spd.c" />
+      <File name="KinaseChain_init_fmu.c" />
+      <File name="KinaseChain_FMU.c" />
+      <File name="./gc/memory_pool.c" />
+      <File name="./gc/omc_gc.c" />
+      <File name="./util/base_array.c" />
+      <File name="./util/boolean_array.c" />
+      <File name="./util/context.c" />
+      <File name="./util/division.c" />
+      <File name="./util/doubleEndedList.c" />
+      <File name="./util/generic_array.c" />
+      <File name="./util/index_spec.c" />
+      <File name="./util/integer_array.c" />
+      <File name="./util/list.c" />
+      <File name="./util/modelica_string_lit.c" />
+      <File name="./util/modelica_string.c" />
+      <File name="./util/ModelicaUtilities.c" />
+      <File name="./util/omc_error.c" />
+      <File name="./util/omc_file.c" />
+      <File name="./util/omc_init.c" />
+      <File name="./util/omc_mmap.c" />
+      <File name="./util/omc_msvc.c" />
+      <File name="./util/omc_numbers.c" />
+      <File name="./util/parallel_helper.c" />
+      <File name="./util/rational.c" />
+      <File name="./util/real_array.c" />
+      <File name="./util/ringbuffer.c" />
+      <File name="./util/simulation_options.c" />
+      <File name="./util/string_array.c" />
+      <File name="./util/utility.c" />
+      <File name="./util/varinfo.c" />
+      <File name="./math-support/pivot.c" />
+      <File name="./simulation/jacobian_util.c" />
+      <File name="./simulation/omc_simulation_util.c" />
+      <File name="./simulation/options.c" />
+      <File name="./simulation/simulation_info_json.c" />
+      <File name="./simulation/simulation_omc_assert.c" />
+      <File name="./simulation/solver/delay.c" />
+      <File name="./simulation/solver/fmi_events.c" />
+      <File name="./simulation/solver/model_help.c" />
+      <File name="./simulation/solver/omc_math.c" />
+      <File name="./simulation/solver/spatialDistribution.c" />
+      <File name="./simulation/solver/stateset.c" />
+      <File name="./simulation/solver/synchronous.c" />
+      <File name="./simulation/solver/initialization/initialization.c" />
+      <File name="./meta/meta_modelica_catch.c" />
+    </SourceFiles>
+  </ModelExchange>
+  <CoSimulation
+    modelIdentifier="KinaseChain"
+    needsExecutionTool="false"
+    canHandleVariableCommunicationStepSize="true"
+    canInterpolateInputs="true"
+    maxOutputDerivativeOrder="1"
+    canRunAsynchronuously = "false"
+    canBeInstantiatedOnlyOncePerProcess="false"
+    canNotUseMemoryManagementFunctions="false"
+    canGetAndSetFMUstate="false"
+    canSerializeFMUstate="false"
+    providesDirectionalDerivative="false">
+    <SourceFiles>
+      <File name="KinaseChain.c" />
+      <File name="KinaseChain_functions.c" />
+      <File name="KinaseChain_records.c" />
+      <File name="KinaseChain_01exo.c" />
+      <File name="KinaseChain_02nls.c" />
+      <File name="KinaseChain_03lsy.c" />
+      <File name="KinaseChain_04set.c" />
+      <File name="KinaseChain_05evt.c" />
+      <File name="KinaseChain_06inz.c" />
+      <File name="KinaseChain_07dly.c" />
+      <File name="KinaseChain_08bnd.c" />
+      <File name="KinaseChain_09alg.c" />
+      <File name="KinaseChain_10asr.c" />
+      <File name="KinaseChain_11mix.c" />
+      <File name="KinaseChain_12jac.c" />
+      <File name="KinaseChain_13opt.c" />
+      <File name="KinaseChain_14lnz.c" />
+      <File name="KinaseChain_15syn.c" />
+      <File name="KinaseChain_16dae.c" />
+      <File name="KinaseChain_17inl.c" />
+      <File name="KinaseChain_18spd.c" />
+      <File name="KinaseChain_init_fmu.c" />
+      <File name="KinaseChain_FMU.c" />
+      <File name="./gc/memory_pool.c" />
+      <File name="./gc/omc_gc.c" />
+      <File name="./util/base_array.c" />
+      <File name="./util/boolean_array.c" />
+      <File name="./util/context.c" />
+      <File name="./util/division.c" />
+      <File name="./util/doubleEndedList.c" />
+      <File name="./util/generic_array.c" />
+      <File name="./util/index_spec.c" />
+      <File name="./util/integer_array.c" />
+      <File name="./util/list.c" />
+      <File name="./util/modelica_string_lit.c" />
+      <File name="./util/modelica_string.c" />
+      <File name="./util/ModelicaUtilities.c" />
+      <File name="./util/omc_error.c" />
+      <File name="./util/omc_file.c" />
+      <File name="./util/omc_init.c" />
+      <File name="./util/omc_mmap.c" />
+      <File name="./util/omc_msvc.c" />
+      <File name="./util/omc_numbers.c" />
+      <File name="./util/parallel_helper.c" />
+      <File name="./util/rational.c" />
+      <File name="./util/real_array.c" />
+      <File name="./util/ringbuffer.c" />
+      <File name="./util/simulation_options.c" />
+      <File name="./util/string_array.c" />
+      <File name="./util/utility.c" />
+      <File name="./util/varinfo.c" />
+      <File name="./math-support/pivot.c" />
+      <File name="./simulation/jacobian_util.c" />
+      <File name="./simulation/omc_simulation_util.c" />
+      <File name="./simulation/options.c" />
+      <File name="./simulation/simulation_info_json.c" />
+      <File name="./simulation/simulation_omc_assert.c" />
+      <File name="./simulation/solver/delay.c" />
+      <File name="./simulation/solver/fmi_events.c" />
+      <File name="./simulation/solver/model_help.c" />
+      <File name="./simulation/solver/omc_math.c" />
+      <File name="./simulation/solver/spatialDistribution.c" />
+      <File name="./simulation/solver/stateset.c" />
+      <File name="./simulation/solver/synchronous.c" />
+      <File name="./simulation/solver/initialization/initialization.c" />
+      <File name="./meta/meta_modelica_catch.c" />
+    </SourceFiles>
+  </CoSimulation>
+  <LogCategories>
+    <Category name="logEvents" />
+    <Category name="logSingularLinearSystems" />
+    <Category name="logNonlinearSystems" />
+    <Category name="logDynamicStateSelection" />
+    <Category name="logStatusWarning" />
+    <Category name="logStatusDiscard" />
+    <Category name="logStatusError" />
+    <Category name="logStatusFatal" />
+    <Category name="logStatusPending" />
+    <Category name="logAll" />
+    <Category name="logFmi2Call" />
+  </LogCategories>
+  <DefaultExperiment startTime="0.0" stopTime="1.0" tolerance="1e-06"/>
+  <ModelVariables>
+  <!-- Index of variable = "1" -->
+  <ScalarVariable
+    name="X1"
+    valueReference="0"
+    description="state variable x1"
+    initial="exact">
+    <Real start="0.0"/>
+  </ScalarVariable>
+  <!-- Index of variable = "2" -->
+  <ScalarVariable
+    name="X2"
+    valueReference="1"
+    description="state variable x2"
+    initial="exact">
+    <Real start="0.0"/>
+  </ScalarVariable>
+  <!-- Index of variable = "3" -->
+  <ScalarVariable
+    name="X3"
+    valueReference="2"
+    description="state variable x3"
+    initial="exact">
+    <Real start="0.0"/>
+  </ScalarVariable>
+  <!-- Index of variable = "4" -->
+  <ScalarVariable
+    name="X4"
+    valueReference="3"
+    description="state variable x4"
+    initial="exact">
+    <Real start="0.0"/>
+  </ScalarVariable>
+  <!-- Index of variable = "5" -->
+  <ScalarVariable
+    name="der(X1)"
+    valueReference="4"
+    description="der(state variable x1)"
+    >
+    <Real derivative="1"/>
+  </ScalarVariable>
+  <!-- Index of variable = "6" -->
+  <ScalarVariable
+    name="der(X2)"
+    valueReference="5"
+    description="der(state variable x2)"
+    >
+    <Real derivative="2"/>
+  </ScalarVariable>
+  <!-- Index of variable = "7" -->
+  <ScalarVariable
+    name="der(X3)"
+    valueReference="6"
+    description="der(state variable x3)"
+    >
+    <Real derivative="3"/>
+  </ScalarVariable>
+  <!-- Index of variable = "8" -->
+  <ScalarVariable
+    name="der(X4)"
+    valueReference="7"
+    description="der(state variable x4)"
+    >
+    <Real derivative="4"/>
+  </ScalarVariable>
+  <!-- Index of variable = "9" -->
+  <ScalarVariable
+    name="aplha"
+    valueReference="9"
+    description="input variable aplha"
+    causality="input"
+    >
+    <Real start="0.0"/>
+  </ScalarVariable>
+  <!-- Index of variable = "10" -->
+  <ScalarVariable
+    name="beta"
+    valueReference="10"
+    description="input variable beta"
+    causality="input"
+    >
+    <Real start="0.0"/>
+  </ScalarVariable>
+  <!-- Index of variable = "11" -->
+  <ScalarVariable
+    name="lambda"
+    valueReference="11"
+    description="input variable lambda"
+    causality="input"
+    >
+    <Real start="0.0"/>
+  </ScalarVariable>
+  </ModelVariables>
+  <ModelStructure>
+    <Derivatives>
+      <Unknown index="5" dependencies="1 9 10 11" dependenciesKind="dependent dependent dependent dependent" />
+      <Unknown index="6" dependencies="1 2 9 10" dependenciesKind="dependent dependent dependent dependent" />
+      <Unknown index="7" dependencies="2 3 9 10" dependenciesKind="dependent dependent dependent dependent" />
+      <Unknown index="8" dependencies="3 4 9 10" dependenciesKind="dependent dependent dependent dependent" />
+    </Derivatives>
+    <InitialUnknowns>
+      <Unknown index="5" dependencies="1 9 10 11" dependenciesKind="dependent dependent dependent dependent" />
+      <Unknown index="6" dependencies="1 2 9 10" dependenciesKind="dependent dependent dependent dependent" />
+      <Unknown index="7" dependencies="2 3 9 10" dependenciesKind="dependent dependent dependent dependent" />
+      <Unknown index="8" dependencies="3 4 9 10" dependenciesKind="dependent dependent dependent dependent" />
+    </InitialUnknowns>
+  </ModelStructure>
+</fmiModelDescription>

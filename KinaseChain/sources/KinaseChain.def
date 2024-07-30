@@ -1,0 +1,54 @@
+EXPORTS
+  ;***************************************************
+  ;Common Functions
+  ;****************************************************
+  KinaseChain_fmiGetTypesPlatform @1
+  KinaseChain_fmiGetVersion @2
+  KinaseChain_fmiSetDebugLogging @3
+  KinaseChain_fmiInstantiate @4
+  KinaseChain_fmiFreeInstance @5
+  KinaseChain_fmiSetupExperiment @6
+  KinaseChain_fmiEnterInitializationMode @7
+  KinaseChain_fmiExitInitializationMode @8
+  KinaseChain_fmiTerminate @9
+  KinaseChain_fmiReset @10
+  KinaseChain_fmiGetReal @11
+  KinaseChain_fmiGetInteger @12
+  KinaseChain_fmiGetBoolean @13
+  KinaseChain_fmiGetString @14
+  KinaseChain_fmiSetReal @15
+  KinaseChain_fmiSetInteger @16
+  KinaseChain_fmiSetBoolean @17
+  KinaseChain_fmiSetString @18
+  KinaseChain_fmiGetFMUstate @19
+  KinaseChain_fmiSetFMUstate @20
+  KinaseChain_fmiFreeFMUstate @21
+  KinaseChain_fmiSerializedFMUstateSize @22
+  KinaseChain_fmiSerializeFMUstate @23
+  KinaseChain_fmiDeSerializeFMUstate @24
+  KinaseChain_fmiGetDirectionalDerivative @25
+  ;***************************************************
+  ;Functions for FMI for Model Exchange
+  ;****************************************************
+  KinaseChain_fmiEnterEventMode @26
+  KinaseChain_fmiNewDiscreteStates @27
+  KinaseChain_fmiEnterContinuousTimeMode @28
+  KinaseChain_fmiCompletedIntegratorStep @29
+  KinaseChain_fmiSetTime @30
+  KinaseChain_fmiSetContinuousStates @31
+  KinaseChain_fmiGetDerivatives @32
+  KinaseChain_fmiGetEventIndicators @33
+  KinaseChain_fmiGetContinuousStates @34
+  KinaseChain_fmiGetNominalsOfContinuousStates @35
+  ;***************************************************
+  ;Functions for FMI for Co-Simulation
+  ;****************************************************
+  KinaseChain_fmiSetRealInputDerivatives @36
+  KinaseChain_fmiGetRealOutputDerivatives @37
+  KinaseChain_fmiDoStep @38
+  KinaseChain_fmiCancelStep @39
+  KinaseChain_fmiGetStatus @40
+  KinaseChain_fmiGetRealStatus @41
+  KinaseChain_fmiGetIntegerStatus @42
+  KinaseChain_fmiGetBooleanStatus @43
+  KinaseChain_fmiGetStringStatus @44

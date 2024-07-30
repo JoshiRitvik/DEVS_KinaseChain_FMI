@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<fmiModelDescription fmiVersion="2.0" modelName="GenrFMU" guid="864b7d79-d454-4d85-b5f8-757f21eab7f7" generationTool="FMU4j" generationDateAndTime="2024-04-26T15:12:56Z" variableNamingConvention="structured">
+    <CoSimulation modelIdentifier="GenrFMU" canRunAsynchronuously="false" canNotUseMemoryManagementFunctions="true" canGetAndSetFMUstate="false" canSerializeFMUstate="false"/>
+    <ModelVariables>
+        <ScalarVariable name="timeRemaining" valueReference="0" causality="output">
+            <Real/>
+        </ScalarVariable>
+        <ScalarVariable name="alpha" valueReference="1" causality="output" variability="discrete">
+            <Real/>
+        </ScalarVariable>
+        <ScalarVariable name="beta" valueReference="2" causality="output" variability="discrete">
+            <Real/>
+        </ScalarVariable>
+        <ScalarVariable name="lambda" valueReference="3" causality="output" variability="discrete">
+            <Real/>
+        </ScalarVariable>
+    </ModelVariables>
+    <ModelStructure>
+        <Outputs>
+            <Unknown index="1"/>
+            <Unknown index="2"/>
+            <Unknown index="3"/>
+            <Unknown index="4"/>
+        </Outputs>
+    </ModelStructure>
+</fmiModelDescription>
